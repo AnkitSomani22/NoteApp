@@ -1,0 +1,43 @@
+.sidebar-note {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+.sidebar-note:hover {
+  background-color: #f9f9f9;
+}
+
+.sidebar-note.active {
+  background-color: #e0f0ff;
+  border-right: 4px solid #007aff;
+}
+
+.sidebar-note h4 {
+  margin: 0 0 0.25rem 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.priority-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+.priority-3 {
+  background-color: red; /* Red */
+}
+.priority-2 {
+  background-color: orange; /* Orange */
+}
+.priority-1 {
+  background-color: green; /* Green */
+}
